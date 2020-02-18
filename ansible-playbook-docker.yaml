@@ -1,0 +1,9 @@
+---
+- hosts: myserver01
+  tasks:
+  - name: Running the container
+    docker_container:
+      name: my-sdb
+      image: sdblepas/petclinic
+      ports:
+      - "8081:8080"
