@@ -8,7 +8,7 @@ docker run -it -p 8081:8080 sdblepas/petclinic
 
 ## CI 
  Any commit to this repository will trigger a travis-ci check https://travis-ci.com/sdblepas/spring-petclinic 
- And a build of the docker image that can be found here https://hub.docker.com/r/sdblepas/petclinic
+ and a build of the docker image that can be found here https://hub.docker.com/r/sdblepas/petclinic
  If you want to deploy the pet-clinic via ansible you can use the <file>
 
 ## Understanding the Spring Petclinic application with a few diagrams
