@@ -1,9 +1,15 @@
-# Spring PetClinic Sample Application [![Build Status](https://travis-ci.com/sdblepas/spring-petclinic.svg?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
-Deploy this sample application to Pivotal Web Services:
+# Spring PetClinic Sample Application [![Build Status](https://travis-ci.com/sdblepas/spring-petclinic.svg?branch=master)](https://travis-ci.com/sdblepas/spring-petclinic/)
 
-<a href="https://push-to.cfapps.io?repo=https%3A%2F%2Fgithub.com%2Fspring-projects%2Fspring-petclinic.git">
-    <img src="https://push-to.cfapps.io/ui/assets/images/Push-to-Pivotal-Light-with-Shadow.svg" width="180" alt="Push" align="center">
-</a>
+Run with docker 
+from command line 
+```
+docker run -it -p 8081:8080 sdblepas/petclinic
+```
+
+## CI 
+ Any commit to this repository will trigger a travis-ci check https://travis-ci.com/sdblepas/spring-petclinic 
+ And a build of the docker image that can be found here https://hub.docker.com/r/sdblepas/petclinic
+ If you want to deploy the pet-clinic via ansible you can use the <file>
 
 ## Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
