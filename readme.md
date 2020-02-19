@@ -12,7 +12,7 @@ docker run -it -p 8081:8080 sdblepas/petclinic
 
 ## Ansible install 
  If you want to deploy the pet-clinic via ansible you can use the ansible-playbook-docker.yaml
- add you host in your ansible host file and add the playbook.\n
+ add you host in your ansible host file and add the playbook.
  On target server 
  
 ```
