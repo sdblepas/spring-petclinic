@@ -12,8 +12,8 @@ docker run -it -p 8081:8080 sdblepas/petclinic
 
 ## Ansible install 
  If you want to deploy the pet-clinic via ansible you can use the ansible-playbook-docker.yaml
- add you host in your ansible host file and add the playbook.
- On target serve 
+ add you host in your ansible host file and add the playbook.\n
+ On target server 
  
 ```
 git clone -n git://github.com/sdblepas/spring-petclinic.git --depth 1
